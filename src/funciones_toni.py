@@ -12,9 +12,15 @@ def monthattack (x, pattern):
     import re
     res = re.findall(pattern, x)
     if len(res)>1:
-        return res[-1]
+        if (len(res[-1])==3) and (res[-1] != "War"):
+            return res[-1]
+        else:
+            return "NaN"
     elif len(res)==1:
-        return res[0]
+        if (len(res[0])==3) and (res[-1] != "War"):
+            return res[0]
+        else:
+            return "NaN"
     else:
         return "NaN"
 
@@ -39,5 +45,22 @@ def fatal (x, pattern):
     res="".join(res)
     if len(res)>=1:
         return res
+    else:
+        return "NaN"
+
+def age (x, pattern):
+    import re
+    res = re.findall(pattern, x)
+    if len(res)>=1:
+        return int(res[0])
+    else:
+        return 0
+
+
+def sex (x, pattern):
+    import re
+    res = re.findall(pattern, x)
+    if len(res)>=1:
+        return str(res[0])
     else:
         return "NaN"
