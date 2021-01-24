@@ -4,7 +4,7 @@
 
 ## 01. Introduction
 
-The target of the current project is to take a dataset, clean it and analyse the data.
+The target of the current project is to take a dataset, clean it and analyse the data. This is one of the projects done during the [IronHack](https://www.ironhack.com/es) Data Analytics bootcamp
 
 ## 02. Hypothesis
 
