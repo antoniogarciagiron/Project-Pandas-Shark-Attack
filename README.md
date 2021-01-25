@@ -67,7 +67,7 @@ Furthermore, it is important to identify the most dangerous areas in terms of sh
 
 ![Fig8](https://github.com/antoniogarciagiron/Project-Pandas-Shark-Attack/blob/main/images/09_Species_vs_country.jpg)
 
-A deeper study would be necessary to bring conclusions, but at first glance, the countries with as Australia, USA and South Africa have an extended surfer culture, and that explains why there are so many attacks in there.
+A deeper study would be necessary to bring conclusions, but at first glance, the countries  as Australia, USA and South Africa, with an extended surfer culture, suffer more attacks.
 
 The survival ratio by age is almost constant, however, it is reduced for ages below 10 and above 60, as shown here:
 
