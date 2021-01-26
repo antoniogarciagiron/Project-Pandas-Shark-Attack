@@ -16,7 +16,7 @@
 ## 03. Cleaning data
 
 - The raw dataset had 25.000 rows and 24 columns, however, most rows didn't contain any information, and some columns were either empty or containing useless information.
-- Some columns contain usefull information but the data was not well registered. I used Redex to find the usefull data and clean the rest.
+- Some columns contain usefull information but the data was not well registered. I used Regex to find the usefull data and clean the rest.
 - Also some column names were not correctly written, I changed the names to avoid confusion.
 - The columns with repeated data were removed.
 - After cleaning the null information and empty columns, the final dataset dimension was 6.293 x 13.
